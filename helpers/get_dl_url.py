@@ -1,9 +1,8 @@
 import requests ,json, time
 from decouple import config
 
-login_key = config('API_USERNAME')
-key = config('API_PASSWORD')
-
+login_id = config('API_USERNAME', "wusu7373eud")
+key_id = config('API_PASSWORD', "xyz11334")
 def dl_url(ticket,file_id):
     #print(ticket, file_id)
     
