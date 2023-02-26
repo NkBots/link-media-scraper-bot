@@ -1,8 +1,10 @@
 import requests ,json, time
 from decouple import config
 
-login_key = config('API_USERNAME')
-key = config('API_PASSWORD')
+
+
+login_id = config('API_USERNAME', "wusu7373eud")
+key_id = config('API_PASSWORD', "xyz11334")
 
 def get_ticket(file_id):
     headers = {'file':file_id,'login':login_key,'key':key}
