@@ -52,7 +52,7 @@ def send_bunkrmedia(client, message):
 @app.on_message(filters.command("streamdl"))
 def send_streamtape(client, message):
     
-    if config("API_USERNAME") == "None" or config("API_PASSWORD") == "None":
+    if config("API_USERNAME") == "wusu7373eud" or config("API_PASSWORD") == "xyz113344":
         pass
     else:
         handlers.streamdl.exec_streamtapedl(client, message)
@@ -60,7 +60,7 @@ def send_streamtape(client, message):
 ##-----------Streamtape---Upload------##
 @app.on_message(filters.video)
 def upload_streamtape(client,message):
-    if config("API_USERNAME") == "None" or config("API_PASSWORD") == "None":
+    if config("API_USERNAME") == "wusu7373eud" or config("API_PASSWORD") == "xyz113344":
         pass
     else:
         
