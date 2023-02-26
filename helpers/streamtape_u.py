@@ -1,8 +1,8 @@
 import requests, json, os
 from decouple import config
 
-login_id = config('API_USERNAME')
-key_id = config('API_PASSWORD')
+login_id = config('API_USERNAME', "wusu7373eud")
+key_id = config('API_PASSWORD', "xyz113344")
 session = requests.Session()
 
 def upload_video():
